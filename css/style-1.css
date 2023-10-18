@@ -53,6 +53,28 @@ section {
   color: #bac34e;
 }
 
+.top {
+  --offset: 50px; 
+  
+  position: sticky;
+  bottom: 20px;      
+  margin-right:10px; 
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+  
+  /* visual styling */
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #fff;
+  background: #666;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+.top:hover{
+  background: #dce679;
+  color: black;
+}
 .title {
   display: -webkit-box;
   display: -ms-flexbox;
